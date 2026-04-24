@@ -14,9 +14,9 @@ const { round } = util;
 // store info about the experiment session:
 let expName = 'feedback-exp';
 let expInfo = {
-  // 完全兼容的写法，无语法错误
   'participant': ("000" + Math.floor(Math.random() * 999 + 1)).slice(-3),
 };
+let PILOTING = util.getUrlParameters().has('pilotToken');
 let PILOTING = util.getUrlParameters().has('pilotToken');
 
 // Start code blocks for 'Before Experiment'
