@@ -2,14 +2,6 @@
  * Feedback-Exp *
  *********************/
 
-import { core, data, sound, util, visual, hardware } from './lib/psychojs-2026.1.3.js';
-const { PsychoJS } = core;
-const { TrialHandler, MultiStairHandler } = data;
-const { Scheduler } = util;
-//some handy aliases as in the psychopy scripts;
-const { abs, sin, cos, PI: pi, sqrt } = Math;
-const { round } = util;
-
 
 // store info about the experiment session:
 let expName = 'feedback-exp';
