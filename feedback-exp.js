@@ -14,7 +14,7 @@ const { round } = util;
 // store info about the experiment session:
 let expName = 'feedback-exp';  // from the Builder filename that created this script
 let expInfo = {
-'participant': Math.floor(Math.random()*1000).toString().padStart(3,'0'),
+'participant': ("000" + Math.floor(Math.random() * 999 + 1)).slice(-3),
 };
 let PILOTING = util.getUrlParameters().has('__pilotToken');
 
